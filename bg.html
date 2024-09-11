@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="all-radios">
+        <header>
+            <div class="logo-div">
+                <a href="index.html"><img src="pick/logo.jpeg" alt="logo" class="logo"></a>
+                <a href="index.html"><img src="pick/изтеглен файл.jpg" alt="bg" class="bg"></a>
+            </div>
+            <div class="nav">
+                <ul>
+                    <li><a href="#home">Начало</a></li>
+                    <li><a href="#works">Проект</a></li>
+                    <li><a href="#about">За мен</a></li>
+                    <li><a href="#contact">Контакти</a></li>
+                </ul>
+            </div>
+            <div class="social">
+                <i class='bx bxl-instagram' id="instagram"></i>
+                <i class='bx bxl-facebook-circle' id="facebook"></i>
+            </div>
+        </header>
+        <main>
+            <div class="main-box">
+                <section id="home">
+                    <h1 class="zaglavie-h1">Лично <span>Портфолио</span></h1>
+                    <div class="name">
+                        <div class="text_me">
+                            <h1>Веселин <br>Байчев </h1>
+                            <h3><span>Уеб </span>рограмист</h3>
+                        </div>
+                        <div class="avatar">
+                            <img src="pick/snimka-na-men.jpeg" alt="">
+                        </div>
+
+                    </div>
+                </section>
+                <section id="about">
+                    <h1>За мен</h1>
+                    <div class="about-conteiner">
+                        <div class="about-info">
+                            <p>Здравейте! Аз съм Веселин Байчев, студент във Великотърновския университет с интерес към
+                                програмирането и технологиите. През последните две години създавам уебсайтове и работя
+                                по проекти за автоматизация, използвайки HTML, CSS и основен JavaScript. Също така, съм
+                                умел в работата с различни операционни системи като Windows и Linux, както и владея
+                                Microsoft Office. <br> <br>
+                                Целта ми е да продължа да се развивам като програмист и да научавам нови технологии.
+                                Вярвам, че моите технически умения, съчетани с мотивацията ми за постоянно
+                                усъвършенстване, ме правят ценен член на всеки екип. <br> <br>
+                                В свободното си време се занимавам с ИТ извънкласни дейности и доброволчески проекти,
+                                които ми помагат да разширявам знанията си и да се свързвам с други хора в областта.
+                                <br> <br>
+                                Не се колебайте да се свържете с мен, ако имате въпроси или искате да обсъдим
+                                потенциални проекти!
+                            </p>
+                        </div>
+                        <div class="about-img">
+                            <img src="" alt="">
+                        </div>
+                    </div>
+                </section>
+                <section id="works">
+                    <h1>Проект</h1>
+                    <div class="conteiner-work">
+                        <div class="work-divs">
+                            <video width="920" height="640" autoplay loop controls muted style="border-radius: 20px;">
+                                <source src="pick/0624.mp4" type="video/mp4">
+                                Твоят браузър не поддържа видео таг.
+                            </video>
+                            <p>
+                                Това видео е моят дипломен проект. То представлява кулминацията на моето академично
+                                пътуване и показва уменията и знанията, които съм придобил по време на обучението си.
+                                Гордея се да представя тази работа като значимо постижение в моята образователна
+                                кариера.
+                        </div>
+                    </div>
+                </section>
+                <section id="contact">
+                    <h1>Контакт</h1>
+                    <form class="con-form" action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="9d1de506-b472-4775-9f72-07e0c231b8a4">
+                        <div class="conteiner-informaciq">
+                            <div class="contact-name">
+                                <input type="text" name="Name" required placeholder="Име">
+                                <input type="text" name="surname" required placeholder="Фамилия">
+                            </div>
+
+                            <div class="contact-name">
+                                <input type="email" name="email" required placeholder="Имейл">
+                                <input type="tel" name="Number" maxlength="10" placeholder="Номер">
+                            </div>
+                        </div>
+                        <div class="conteiner-izprashane">
+                            <textarea id="subject" name="Message" placeholder="Съобщение"></textarea>
+                            <button class="submit">Изпрати</button>
+                        </div>
+                    </form>
+                </section>
+            </div>
+        </main>
+        <footer>
+            <div class="conteiter-footer">
+                <div class="footer-nav">
+                    <img src="pick/logo.jpeg" alt="">
+                    <ul>
+                        <li><a href="#home">Начало</a></li>
+                        <li><a href="#works">Проект</a></li>
+                        <li><a href="#about">За мен</a></li>
+                        <li><a href="#contact">Контакти</a></li>
+                    </ul>
+                    <p class="footer-company-name">Веселин Байчев © 2024</p>
+                </div>
+                <div class="footer-adress">
+                    <div>
+                        <i class="bx bx-map"></i>
+                        <p>ул. Отец Паисий Хилендарски, с.Първомайци</p>
+                    </div>
+
+                    <div>
+                        <i class="bx bx-phone"></i>
+                        <p>0888836762</p>
+                    </div>
+
+                    <div>
+                        <i class="bx bx-envelope"></i>
+                        <p><a href="mailto:veselin.s.baichev@gmail.com">veselin.s.baichev@gmail.com</a></p>
+                    </div>
+                </div>
+                <div class="footer-social">
+                    <i class='bx bxl-instagram'></i>
+                    <i class='bx bxl-facebook-circle'></i>
+                    <i class='bx bxl-github'></i>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

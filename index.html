@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="all-radios">
+        <header>
+            <div class="logo-div">
+                <a href="index.html"><img src="pick/logo.jpeg" alt="logo" class="logo"></a>
+                <a href="bg.html"><img src="pick/bg flag" alt="bg" class="bg"></a>
+            </div>
+            <div class="nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#works">Work</a></li>
+                    <li><a href="#about">About me</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="social">
+                <i class='bx bxl-instagram' id="instagram"></i>
+                <i class='bx bxl-facebook-circle' id="facebook"></i>
+            </div>
+        </header>
+        <main>
+            <div class="main-box">
+                <section id="home">
+                    <h1 class="zaglavie-h1">Personal <span>Portfolio</span></h1>
+                    <div class="name">
+                        <div class="text_me">
+                            <h1>Veselin <br>Baychev </h1>
+                            <h3><span>Web D</span>eveloper</h3>
+                        </div>
+                        <div class="avatar">
+                            <img src="pick/snimka-na-men.jpeg" alt="">
+                        </div>
+
+                    </div>
+                </section>
+                <section id="about">
+                    <h1>About</h1>
+                    <div class="about-conteiner">
+                        <div class="about-info">
+                            <p>Hello! I’m Veselin Baychev, a student at Veliko Tarnovo University with a
+                                passion for programming and technology. Over the past two years, I've been creating
+                                websites and working on automation projects using HTML, CSS, and basic JavaScript. I'm
+                                also skilled in working with different operating systems like Windows and Linux, and I'm
+                                proficient in Microsoft Office.
+                                <br> <br>
+                                My goal is to continue developing as a programmer and learning new technologies. I
+                                believe that my technical skills, combined with my motivation for continuous
+                                improvement, make me a valuable team member.
+                                <br> <br>
+                                In my free time, I engage in IT-related extracurricular activities and volunteer
+                                projects, which help me broaden my knowledge and connect with others in the field.
+                                <br> <br>
+                                Feel free to reach out if you have any questions or want to discuss potential projects!
+                            </p>
+                        </div>
+                        <div class="about-img">
+                            <img src="" alt="">
+                        </div>
+                    </div>
+                </section>
+                <section id="works">
+                    <h1>Work</h1>
+                    <div class="conteiner-work">
+                        <div class="work-divs">
+                            <video width="920" height="640" autoplay loop controls muted style="border-radius: 20px;">
+                                <source src="pick/0624.mp4" type="video/mp4">
+                                Твоят браузър не поддържа видео таг.
+                            </video>
+                            <p>This video is my graduation thesis project. It represents the culmination of my academic
+                                journey and showcases the skills and knowledge I’ve acquired throughout my studies. I am
+                                proud to present this work as a significant achievement in my educational career.</p>
+                        </div>
+                    </div>
+                </section>
+                <section id="contact">
+                    <h1>Contact</h1>
+                    <form class="con-form" action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="9d1de506-b472-4775-9f72-07e0c231b8a4">
+                        <div class="conteiner-informaciq">
+                            <div class="contact-name">
+                                <input type="text" name="Name" required placeholder="Name">
+                                <input type="text" name="surname" required placeholder="Surname">
+                            </div>
+
+                            <div class="contact-name">
+                                <input type="email" name="email" required placeholder="Email">
+                                <input type="tel" name="Number" maxlength="10" placeholder="Number">
+                            </div>
+                        </div>
+                        <div class="conteiner-izprashane">
+                            <textarea id="subject" name="Message" placeholder="Message"></textarea>
+                            <button class="submit">Submit</button>
+                        </div>
+                    </form>
+                </section>
+            </div>
+        </main>
+        <footer>
+            <div class="conteiter-footer">
+                <div class="footer-nav">
+                    <img src="pick/logo.jpeg" alt="">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#works">Work</a></li>
+                        <li><a href="#about">About me</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                    <p class="footer-company-name">Veselin Baychev © 2024</p>
+                </div>
+                <div class="footer-adress">
+                    <div>
+                        <i class="bx bx-map"></i>
+                        <p>ул. Отец Паисий Хилендарски, с.Първомайци</p>
+                    </div>
+
+                    <div>
+                        <i class="bx bx-phone"></i>
+                        <p>0888836762</p>
+                    </div>
+
+                    <div>
+                        <i class="bx bx-envelope"></i>
+                        <p><a href="mailto:veselin.s.baichev@gmail.com">veselin.s.baichev@gmail.com</a></p>
+                    </div>
+                </div>
+                <div class="footer-social">
+                    <i class='bx bxl-instagram'></i>
+                    <i class='bx bxl-facebook-circle'></i>
+                    <i class='bx bxl-github'></i>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
